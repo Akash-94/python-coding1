@@ -6,13 +6,14 @@ if a == b == c:
     print("The values are equal")
 
 elif (a > b) and (a > c):
-    print("a is greatest")
+    print("a is greatest and the value is {}".format(a))
 
 elif (b > a) and (b > c):
-    print("b is greatest")
+    print("b is greatest and the value is {}".format(b))
 
 else:
-    print("c is greatest")
+    print("c is greatest and the value is {}".format(c))
 
 print()
+
 
