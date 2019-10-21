@@ -1,15 +1,18 @@
-a : int(input(Enter a? ))
-b : int(input(Enter b? ))
-c : int(input(Enter c? ))
-if a>b and a>c
-    print("a is largest")
-if b>a and b>c
-    print("b is largest")
-if c>a and c>b
-    print("c is largest")
+a = int(input("Enter number 'a': "))
+b = int(input("Enter number 'b': "))
+c = int(input("Enter number 'c': "))
 
+if a == b == c:
+    print("The values are equal")
 
+elif (a > b) and (a > c):
+    print("The largest number is {} ".format(a))
 
-# 1st convert this right python program...
+elif (b > a) and (b > c):
+    print("The largest number is {} ".format(b))
 
-# then convert the above program into if elif else statements
+else:
+    print("The largest number is {} ".format(c))
+
+print()
+
